@@ -4,9 +4,6 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import Counter from '../components/Counter';
 import userEvent from '@testing-library/user-event';
 
-let testCounter; 
-let incrementCount; 
-let decrementCount; 
 
 beforeEach(() => {
   // Render the Counter component here
